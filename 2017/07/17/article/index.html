@@ -10,7 +10,7 @@
 
     <!--Description-->
     
-        <meta name="description" content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,viverra nec, fringilla in, laoreet ">
+        <meta name="description" content="原生JS封装Ajaxdemo：123456789101112131415161718192021221.创建一个ajax对象　　var oAjax=new XMLHttpRequest();2.连接　　oAjax.open(&#39;GET&#39;,&#39;a.txt&#39;+&#39;?&#39;+data,true);　　oAjax.o">
     
 
     <!--Author-->
@@ -180,11 +180,7 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul>
-<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,<br>viverra nec, fringilla in, laoreet vitae, risus.</li>
-<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.<br>Suspendisse id sem consectetuer libero luctus adipiscing.</li>
-</ul>
-
+                <h2 id="原生JS封装Ajax"><a href="#原生JS封装Ajax" class="headerlink" title="原生JS封装Ajax"></a>原生JS封装Ajax</h2><h3 id="demo："><a href="#demo：" class="headerlink" title="demo："></a>demo：</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span>创建一个ajax对象</div><div class="line">　　<span class="keyword">var</span> oAjax=<span class="keyword">new</span> XMLHttpRequest();</div><div class="line"><span class="number">2.</span>连接</div><div class="line">　　oAjax.open(<span class="string">'GET'</span>,<span class="string">'a.txt'</span>+<span class="string">'?'</span>+data,<span class="literal">true</span>);</div><div class="line">　　oAjax.open(<span class="string">'POST'</span>,url,<span class="literal">true</span>);</div><div class="line"><span class="number">3.</span>发送</div><div class="line">　　oAjax.send();</div><div class="line">　　oAjax.setRequestHeader(<span class="string">'Content-Type'</span>,<span class="string">'application/x-www-form-urlencoded'</span>);</div><div class="line">　　oAjax.send(data);</div><div class="line"><span class="number">4.</span>接收</div><div class="line">　　监听</div><div class="line">　　oAjax.onreadysatechange</div><div class="line">　　oAjax.readyState</div><div class="line">　　<span class="number">0</span> － （未初始化）还没有调用send()方法</div><div class="line">　　<span class="number">1</span> － （载入）已调用send()方法，正在发送请求</div><div class="line">　　<span class="number">2</span> － （载入完成）send()方法执行完成，已经接收到全部响应内容</div><div class="line">　　<span class="number">3</span> － （交互）正在解析响应内容</div><div class="line">　　<span class="number">4</span> － （完成）响应内容解析完成，可以在客户端调用了</div><div class="line">　　oAjax.status</div><div class="line">　　<span class="number">200</span>	成功</div><div class="line">　　<span class="number">200</span><span class="number">-299</span>	都算成功</div><div class="line">　　<span class="number">304</span>	未修改</div></pre></td></tr></table></figure>
 
                 
             </div>
